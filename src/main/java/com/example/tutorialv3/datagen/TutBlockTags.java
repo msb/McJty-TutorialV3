@@ -8,6 +8,8 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import com.example.tutorialv3.TutorialV3;
 import com.example.tutorialv3.setup.Registration;
 
+import javax.annotation.Nonnull;
+
 public class TutBlockTags extends BlockTagsProvider {
 
     public TutBlockTags(DataGenerator generator, ExistingFileHelper helper) {
@@ -36,9 +38,11 @@ public class TutBlockTags extends BlockTagsProvider {
                 .add(Registration.MYSTERIOUS_ORE_NETHER.get())
                 .add(Registration.MYSTERIOUS_ORE_END.get())
                 .add(Registration.MYSTERIOUS_ORE_DEEPSLATE.get());
+        //
     }
 
     @Override
+    @Nonnull
     public String getName() {
         return "Tutorial Tags";
     }

@@ -8,6 +8,7 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
 import net.minecraft.world.item.crafting.Ingredient;
 
+import javax.annotation.Nonnull;
 import java.util.function.Consumer;
 
 public class TutRecipes extends RecipeProvider {
@@ -17,7 +18,7 @@ public class TutRecipes extends RecipeProvider {
     }
 
     @Override
-    protected void buildCraftingRecipes(Consumer<FinishedRecipe> consumer) {
+    protected void buildCraftingRecipes(@Nonnull Consumer<FinishedRecipe> consumer) {
 
         // SimpleCookingRecipeBuilder.smelting(ingredient, result, experience, time_required)
 

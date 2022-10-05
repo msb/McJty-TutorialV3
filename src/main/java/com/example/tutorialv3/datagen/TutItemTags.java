@@ -8,6 +8,8 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import com.example.tutorialv3.TutorialV3;
 import com.example.tutorialv3.setup.Registration;
 
+import javax.annotation.Nonnull;
+
 public class TutItemTags extends ItemTagsProvider {
 
     public TutItemTags(DataGenerator generator, BlockTagsProvider blockTags, ExistingFileHelper helper) {
@@ -31,6 +33,7 @@ public class TutItemTags extends ItemTagsProvider {
     }
 
     @Override
+    @Nonnull
     public String getName() {
         return "Tutorial Tags";
     }
