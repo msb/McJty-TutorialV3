@@ -15,3 +15,5 @@ with commits whenever we get a sensible point in the tutorial's narrative.
 - The given JEI dependency is failing:
   "jei-1.18.2-9.5.0.125_mapped_official_1.18.jar needs language provider javafml:40 or above to load"
 - What maps the mysterious ore blocks onto the new tab?
+- A lot of stuff about capabilities that I don't really get.
+- What is a loot table?
