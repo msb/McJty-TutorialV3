@@ -48,7 +48,7 @@ public class TutBlockStates extends BlockStateProvider {
         floatingCube(frame, 1f, 1f, 1f, 15f, 15f, 15f);
 
         frame.texture("window", modLoc("block/powergen_window"));
-        frame.texture("particle", modLoc("block/powergen_off"));
+//        frame.texture("particle", modLoc("block/powergen_off"));
 
         createPowergenModel(Registration.POWERGEN.get(), frame);
     }
